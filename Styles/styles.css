@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../Fonts/Poppins-Bold.ttf");
+  src: url("../Fonts/Poppins-Bold.eot");
+  src: url("../Fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../Fonts/Poppins-Bold.woff") format("woff"),
+    url("../Fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.main {
+  position: absolute;
+  width: 1512px;
+  height: 982px;
+  background: linear-gradient(113deg, #fff 0.28%, rgba(70, 97, 115, 0) 178.65%);
+}
+.searchBar {
+  width: 900px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-left: 259px;
+  margin-top: 63px;
+}
+.searchBarInput {
+  width: 900px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+  font-size: 56px;
+  margin-left: 259px;
+  margin-top: 63px;
+}
+.locationTimeDateStyle {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  flex-shrink: 0;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+  background: #d9d9d9;
+  margin-left: 80px;
+  margin-top: 174px;
+}
+.mainInfosTime {
+  height: 229px;
+  flex-shrink: 0;
+}
+.cityStyle {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  margin-left: 210px;
+  padding-top: 60px;
+}
+.timeStyle {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  margin-left: 220px;
+  padding-top: 40px;
+}
+.dateStyle {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0;
+  margin-left: 180px;
+  padding-top: 20px;
+}
+.weatherDetailsStyle {
+  position: absolute;
+  width: 800px;
+  height: 330px;
+  flex-shrink: 0;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background: #d9d9d9;
+  margin-left: 835px;
+  margin-top: 174px;
+}
+.fiveDaysStyle {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  flex-shrink: 0;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+  background: #d9d9d9;
+  margin-left: 80px;
+  margin-top: 640px;
+}
+.hourlyForecastStyle {
+  width: 870px;
+  height: 366px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #d9d9d9;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 835px;
+  margin-top: 640px;
+}
