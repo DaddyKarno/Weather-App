@@ -112,3 +112,56 @@
   margin-left: 835px;
   margin-top: 640px;
 }
+.mainDetailsStyle {
+  margin-left: 40px;
+  margin-top: 0px;
+  position: absolute;
+  width: 204px;
+  height: 291px;
+  flex-shrink: 0;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.iconWeatherStyle {
+  position: absolute;
+  width: 270px;
+  height: 311px;
+  flex-shrink: 0;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 265px;
+  margin-top: 150px;
+  text-align: center;
+}
+.weatherImage {
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -200px;
+}
+.feelsCelsius {
+  margin-left: -15px;
+  margin-top: -90px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 240px;
+  height: 49.581px;
+}
+.inputSearchStyle {
+  margin-left: 1150px;
+  margin-top: -120px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  background: url(../Images/search.png) 50% 50% no-repeat;
+  border: 0;
+  font-size: 30px;
+}
