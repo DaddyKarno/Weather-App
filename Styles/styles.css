@@ -12,19 +12,23 @@
 }
 .main {
   position: absolute;
-  width: 1512px;
-  height: 982px;
-  background: linear-gradient(113deg, #fff 0.28%, rgba(70, 97, 115, 0) 178.65%);
+  width: 7650px;
+  height: 3800px;
+  background: linear-gradient(
+    113deg,
+    #fff 0.28%,
+    rgba(70, 97, 115, 100) 178.65%
+  );
 }
 .searchBar {
-  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
   height: 100px;
   flex-shrink: 0;
-  margin-left: 259px;
-  margin-top: 63px;
 }
 .searchBarInput {
-  width: 900px;
+  width: 1500px;
   height: 100px;
   flex-shrink: 0;
   border-radius: 40px;
@@ -37,13 +41,13 @@
 }
 .locationTimeDateStyle {
   position: absolute;
-  width: 700px;
-  height: 400px;
+  width: 1400px;
+  height: 800px;
   flex-shrink: 0;
   filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
   border-radius: 30px;
   background: #d9d9d9;
-  margin-left: 80px;
+  margin-left: 2600px;
   margin-top: 174px;
 }
 .mainInfosTime {
@@ -53,64 +57,64 @@
 .cityStyle {
   color: #292929;
   font-family: Poppins;
-  font-size: 55px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 0;
-  margin-left: 210px;
+  margin-left: 420px;
   padding-top: 60px;
 }
 .timeStyle {
   color: #292929;
   font-family: Poppins;
-  font-size: 96px;
+  font-size: 150px;
   font-style: normal;
   font-weight: 700;
   line-height: 0;
-  margin-left: 220px;
-  padding-top: 40px;
+  margin-left: 350px;
+  padding-top: 110px;
 }
 .dateStyle {
   color: #292929;
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: 0;
-  margin-left: 180px;
-  padding-top: 20px;
+  margin-left: 525px;
+  padding-top: 100px;
 }
 .weatherDetailsStyle {
   position: absolute;
-  width: 800px;
-  height: 330px;
+  width: 1630px;
+  height: 700px;
   flex-shrink: 0;
   box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.5);
   border-radius: 30px;
   background: #d9d9d9;
-  margin-left: 835px;
+  margin-left: 4100px;
   margin-top: 174px;
 }
 .fiveDaysStyle {
   position: absolute;
-  width: 600px;
-  height: 500px;
+  width: 1200px;
+  height: 800px;
   flex-shrink: 0;
   filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
   border-radius: 30px;
   background: #d9d9d9;
-  margin-left: 80px;
-  margin-top: 640px;
+  margin-left: 2600px;
+  margin-top: 1100px;
 }
 .hourlyForecastStyle {
-  width: 870px;
-  height: 366px;
+  width: 1600px;
+  height: 600px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #d9d9d9;
   box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.5);
-  margin-left: 835px;
-  margin-top: 640px;
+  margin-left: 4100px;
+  margin-top: 1100px;
 }
 .mainDetailsStyle {
   margin-left: 40px;
@@ -127,16 +131,16 @@
 }
 .iconWeatherStyle {
   position: absolute;
-  width: 270px;
-  height: 311px;
+  width: 600px;
+  height: 500px;
   flex-shrink: 0;
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 265px;
-  margin-top: 150px;
+  margin-left: 400px;
+  margin-top: 170px;
   text-align: center;
 }
 .weatherImage {
@@ -156,7 +160,7 @@
   height: 49.581px;
 }
 .inputSearchStyle {
-  margin-left: 1150px;
+  margin-left: 1770px;
   margin-top: -120px;
   width: 150px;
   height: 150px;
@@ -164,4 +168,47 @@
   background: url(../Images/search.png) 50% 50% no-repeat;
   border: 0;
   font-size: 30px;
+}
+.sunriseStyle {
+  height: 150px;
+  margin-top: 25px;
+}
+.sunriseTimeStyle {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -200px;
+  font-size: 70px;
+}
+.sunsetTimeStyle {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -200px;
+  font-size: 70px;
+}
+.weatherName {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 320px;
+  font-size: 50px;
+}
+.extraDetailsIconStyle {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  margin-left: 1150px;
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: Poppins;
+  text-align: center;
+}
+.extraDetailsStyle {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  margin-left: 1320px;
+  margin-top: -680px;
+  font-size: 60px;
+  font-family: Poppins;
 }
