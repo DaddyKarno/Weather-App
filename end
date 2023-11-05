@@ -1,0 +1,23 @@
+[33mcommit 72a17db9087972730081bcc46948e9affba0cac3[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/WeatherApp/№2/create_logic[m[33m, [m[1;31morigin/feature/WeatherApp/№2/create_logic[m[33m)[m
+Author: Ivan Karnoushenko <karnoushenko24@gmail.com>
+Date:   Sun Nov 5 10:26:59 2023 +0300
+
+    feature(logic):WA:2.output other date, add block catch
+
+[33mcommit e778ca3e71e3f91eef3f1af4f30c92acb9e6f8eb[m
+Author: Ivan Karnoushenko <karnoushenko24@gmail.com>
+Date:   Sat Nov 4 15:15:19 2023 +0300
+
+    feature(logic):WA:2.output weather date on click button
+
+[33mcommit e053f016f01643f4dc934240b450a5a379637b2a[m[33m ([m[1;31morigin/feature/WeatherApp/№1/create_design[m[33m, [m[1;32mfeature/WeatherApp/№1/create_design[m[33m)[m
+Author: Ivan Karnoushenko <karnoushenko24@gmail.com>
+Date:   Thu Nov 2 15:22:49 2023 +0300
+
+    feature(design):WA:1.Create Desigт PR
+
+[33mcommit c0cb418e5746a74ceb66e862dced8eaf9ec64fb5[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ivan Karnoushenko <karnoushenko24@gmail.com>
+Date:   Thu Nov 2 14:41:55 2023 +0300
+
+    feature(design):WA:1.Create Design
